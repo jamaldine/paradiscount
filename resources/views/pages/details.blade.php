@@ -1,7 +1,7 @@
-@extends('app')
-@section('title','details | '. config('app.name') )
+@extends('layouts/app',['title'=>'details'])
+
 @section('content')
-        <div>
-            details
-        </div>
+<div>
+    details
+</div>
 @stop

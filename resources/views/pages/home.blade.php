@@ -1,13 +1,10 @@
-@extends('app')
+@extends('layouts/app')
 @section('content')
-       <div>
-            <div>
-            <img src="{{asset('/images/nuxe.jpeg')}}" alt="nuxe" />
-            </div>
-            <div>image 2</div>
-            <div>image 3</div>
-            <div>image 4</div>
-            <div>image 5</div>
-        </div>
+<div>
+    <div>
+        <!--<img src="{{asset('/images/nuxe.jpeg')}}" alt="nuxe" />-->
+    </div>
+    <h1>Hello Akram, how are you doing my friend? I'm jamaldine :)</h1>
+    
+</div>
 @endsection
-        
